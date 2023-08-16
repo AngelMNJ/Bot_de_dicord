@@ -18,7 +18,7 @@ async def hello(ctx):
 
 @bot.command()
 async def guess(ctx):
-    await ctx.send('Guess a number between 1 and 10.')
+    await ctx.send('Dime un numero del 1 al 10.')
 
     def is_correct(m):
         return m.author == ctx.author and m.content.isdigit()
