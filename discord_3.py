@@ -63,4 +63,4 @@ async def solve(ctx, a: float, b: float, c: float):
     except ValueError:
         await ctx.send("Invalid input. Please provide valid numerical values.")
 
-bot.run("MTEwMTIwNTk4MDE1NjUzMDcxOQ.GBLWim.XLnJO93W6orXC_IhRMwFvC-I8b44mrUCByYbpA")
+bot.run("TOKEN")
